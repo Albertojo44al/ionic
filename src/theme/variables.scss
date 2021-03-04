@@ -74,6 +74,28 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** youtube **/
+  --ion-color-youtube: #ff0011;
+  --ion-color-youtube-rgb: 255,0,17;
+  --ion-color-youtube-contrast: #ffffff;
+  --ion-color-youtube-contrast-rgb: 255,255,255;
+  --ion-color-youtube-shade: #e0000f;
+  --ion-color-youtube-tint: #ff1a29;
+  /**twitch**/
+  --ion-color-twitch: #6441a5;
+  --ion-color-twitch-rgb: 100,65,165;
+  --ion-color-twitch-contrast: #ffffff;
+  --ion-color-twitch-contrast-rgb: 255,255,255;
+  --ion-color-twitch-shade: #583991;
+  --ion-color-twitch-tint: #7454ae;
+  /**Facebook**/
+  --ion-color-facebook: #3b5998;
+  --ion-color-facebook-rgb: 59,89,152;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255,255,255;
+  --ion-color-facebook-shade: #344e86;
+  --ion-color-facebook-tint: #4f6aa2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,4 +255,31 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-youtube {
+  --ion-color-base: var(--ion-color-youtube) !important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-youtube-shade) !important;
+  --ion-color-tint: var(--ion-color-youtube-tint) !important;
+}
+
+.ion-color-twitch {
+  --ion-color-base: var(--ion-color-twitch) !important;
+  --ion-color-base-rgb: var(--ion-color-twitch-rgb) !important;
+  --ion-color-contrast: var(--ion-color-twitch-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-twitch-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-twitch-shade) !important;
+  --ion-color-tint: var(--ion-color-twitch-tint) !important;
+}
+
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-facebook-tint) !important;
 }
